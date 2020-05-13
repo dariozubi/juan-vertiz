@@ -1,48 +1,156 @@
 {
-	"aalto": {
-		"title" : "Aalto LAB Mexico",
-		"intro" : {
-			"1": "“Aalto LAB Mexico (ALM) is an interdisciplinary and intercultural design-led project for social and environmental sustainability. It has been developed as a project-based learning experience, where feasible projects emerged directly and in coherence with a community called ‘20 de Noviembre’ (El 20), located in Campeche, Mexico.” - Claudia Garduño",
-			"2": "I was part of the ALM team since the project’s conception. ALM is the biggest and most complex project that I have ever been part of. Owing to the project’s highly interdisciplinary and intercultural basis, the team and the network started to grow quickly since its first year. I would never have imagined that an architect from New Zealand, an engineer from Finland and an industrial designer from Mexico would work together. This is how things are all the time.",
-			"3": "But what is ALM exactly? I think of it as an effort of making “El 20” a better place. In line with our aims, the project’s process and the structure of the LAB evolved and improved each year."
-		},
-		"subtitle" : "My personal timeline in the project",
-		"section1" : {
-			"title" : "Knowing the context",
-			"1" : "The year was divided into three stages: research, field work and reflection.",
-			"2" : "During the research period, we tried to obtain as much information as we could. 20 de Noviembre is not even on Google Maps, so the data was very limited. This limitation was considered in the field trip approach.",
-			"3" : "We formulated field questions that would enable us to know more about the community. Fieldwork was the most important part of the year and allowed us to ask the questions that would lead to the answers we needed to know.",
-			"4" : "I was proud of the part I played in organizing the fieldwork process and deeply saddened when I could not attend, having contracted a virus just days before the trip.However, I was able to continue my participation following the fieldwork stage, during reflection. This required a report to be published, the editorial design of which Gabriel Calvillo and I completed.You can find the full report here"
-		},
-		"section2" : {
-			"title" : "3 main projects",
-			"1" : "We defined three main projects:",
-			"2" : "Water / Cuxta-Há",
-			"3" : "Artesanía para el bienestar (Handicrafts for Wellbeing)",
-			"4" : "Eco-Hostel / La Casita",
-			"5" : "New team members joined and the challenge was to effectively pass on the information so they could understand the projects.",
-			"6" : "We went to Helsinki to be part of the “Challenging the Mindset Summer Workshop”, and an open summer workshop involving Aalto University master’s level students in conjunction with Aalto Lab Mexico.",
-			"7" : "During the field trip we identified specific require-ments and made some conceptual proposals. Gabriel Calvillo, Flynn Lewer (architect) and I sketched some ideas for the Eco-Hostel and pre-sented them to the community."
-		},
-		"section3" : {
-			"title" : "Hands on!",
-			"1" : "This was the year we managed to crowdfund the Eco-Hostel.",
-			"2" : "The process of the LAB was different, though the same “Labbers” were in charge of the design and the logistics of the project within the community.",
-			"3" : "This was the first tangible result for El 20. The team started with designers and engineers but no architects which forced us to reach out to many experts. This enabled us to collectively make decisions ourselves.",
-			"4" : "We spent three weeks co-creating the final design with the community. At the end, I was the only Labber left alongside Clau, while our friends Jan Ahlstedt and Antti Seppänen documented the process"
-		},
-		"section4" : {
-			"title" : "Cuxta-Há",
-			"1" : "I had graduated by the time this project began, so could not participate as a Labber. Instead, I became a tutor to assist and advise the younger members.",
-			"2" : "I was published as a co-author for a Delft Univer-sity of Technology selection of papers named “Design for Sustainable Wellbeing and Empower-ment” by Monto Mani and Prabhu Kandachar with the design of a poster “Lessons Learnt When doing Things Backwards: The Case Study of Aalto LAB Mexico.”",
-			"3" : "The team won the second place in the CE-MEX-TEC Award with the Cuxta-Hà: Living Water"
-		},
-		"section5" : {
-			"title" : "Health Security Plan and Artesanía para el bienestar",
-			"1" : "My role was to assist the three teams with the following projects:",
-			"2" : "Community health insurance. The main idea is to break the cycle of poverty due to health emergencies in the community.Medical emergencies place severe financial pressure on households in El 20; families may be forced to sell their goods, including land.",
-			"3" : "Honey and crafts. Create two circles of collaboration, one between artisans from different disciplines and the second with other community actors such as tourist guides.",
-			"4" : "La casita complex. Strengthen the local economy by implementing an attractive space to host visitors in El 20. The second stage is to develop showers and restrooms"
-		}
-	}
+  "main": {
+    "intro": {
+      "1": "I'm on a constant quest to evolve, interested in creating unique spaces and experiences for exploration, collaboration and innovation in both large and small scale.",
+      "2": "I'm keen on understanding how spaces, material and people interact in order to seek how design can influence those interactions.",
+      "3": "From commercial projects to communities development my role is to move everyone within my reach."
+    },
+    "work": "work",
+    "about": "about",
+    "title" : "Home"
+  },
+  "aalto": {
+    "title": "Aalto LAB Mexico",
+    "intro": {
+      "1": "“Aalto LAB Mexico (ALM) is an interdisciplinary and intercultural design-led project for social and environmental sustainability. It has been developed as a project-based learning experience, where feasible projects emerged directly and in coherence with a community called ‘20 de Noviembre’ (El 20), located in Campeche, Mexico.” - Claudia Garduño",
+      "2": "I was part of the ALM team since the project’s conception. ALM is the biggest and most complex project that I have ever been part of. Owing to the project’s highly interdisciplinary and intercultural basis, the team and the network started to grow quickly since its first year. I would never have imagined that an architect from New Zealand, an engineer from Finland and an industrial designer from Mexico would work together. This is how things are all the time.",
+      "3": "But what is ALM exactly? I think of it as an effort of making “El 20” a better place. In line with our aims, the project’s process and the structure of the LAB evolved and improved each year."
+    },
+    "subtitle": "My personal timeline in the project",
+    "section1": {
+      "title": "Knowing the context",
+      "1": "The year was divided into three stages: research, field work and reflection.",
+      "2": "During the research period, we tried to obtain as much information as we could. 20 de Noviembre is not even on Google Maps, so the data was very limited. This limitation was considered in the field trip approach.",
+      "3": "We formulated field questions that would enable us to know more about the community. Fieldwork was the most important part of the year and allowed us to ask the questions that would lead to the answers we needed to know.",
+      "4": "I was proud of the part I played in organizing the fieldwork process and deeply saddened when I could not attend, having contracted a virus just days before the trip.However, I was able to continue my participation following the fieldwork stage, during reflection. This required a report to be published, the editorial design of which Gabriel Calvillo and I completed.You can find the full report here"
+    },
+    "section2": {
+      "title": "3 main projects",
+      "1": "We defined three main projects:",
+      "2": "Water / Cuxta-Há",
+      "3": "Artesanía para el bienestar (Handicrafts for Wellbeing)",
+      "4": "Eco-Hostel / La Casita",
+      "5": "New team members joined and the challenge was to effectively pass on the information so they could understand the projects.",
+      "6": "We went to Helsinki to be part of the “Challenging the Mindset Summer Workshop”, and an open summer workshop involving Aalto University master’s level students in conjunction with Aalto Lab Mexico.",
+      "7": "During the field trip we identified specific require-ments and made some conceptual proposals. Gabriel Calvillo, Flynn Lewer (architect) and I sketched some ideas for the Eco-Hostel and pre-sented them to the community."
+    },
+    "section3": {
+      "title": "Hands on!",
+      "1": "This was the year we managed to crowdfund the Eco-Hostel.",
+      "2": "The process of the LAB was different, though the same “Labbers” were in charge of the design and the logistics of the project within the community.",
+      "3": "This was the first tangible result for El 20. The team started with designers and engineers but no architects which forced us to reach out to many experts. This enabled us to collectively make decisions ourselves.",
+      "4": "We spent three weeks co-creating the final design with the community. At the end, I was the only Labber left alongside Clau, while our friends Jan Ahlstedt and Antti Seppänen documented the process"
+    },
+    "section4": {
+      "title": "Cuxta-Há",
+      "1": "I had graduated by the time this project began, so could not participate as a Labber. Instead, I became a tutor to assist and advise the younger members.",
+      "2": "I was published as a co-author for a Delft Univer-sity of Technology selection of papers named “Design for Sustainable Wellbeing and Empower-ment” by Monto Mani and Prabhu Kandachar with the design of a poster “Lessons Learnt When doing Things Backwards: The Case Study of Aalto LAB Mexico.”",
+      "3": "The team won the second place in the CE-MEX-TEC Award with the Cuxta-Hà: Living Water"
+    },
+    "section5": {
+      "title": "Health Security Plan and Artesanía para el bienestar",
+      "1": "My role was to assist the three teams with the following projects:",
+      "2": "Community health insurance. The main idea is to break the cycle of poverty due to health emergencies in the community.Medical emergencies place severe financial pressure on households in El 20; families may be forced to sell their goods, including land.",
+      "3": "Honey and crafts. Create two circles of collaboration, one between artisans from different disciplines and the second with other community actors such as tourist guides.",
+      "4": "La casita complex. Strengthen the local economy by implementing an attractive space to host visitors in El 20. The second stage is to develop showers and restrooms"
+    }
+  },
+  "f1": {
+    "title": "F1: Mexico Grand Prix",
+    "intro": {
+      "1": "The F1 came back to Mexico after 22 years in 2015, and the FIA wanted an astonishing design worthy of a Grand Prix. Unfortunately, there was no space nor time to build a permanent building, so Total Show designed a temporary Paddock Club and I was invited to be part of the design team.",
+      "2": "The general structure was designed by Total Show and the chief engineer Victor Morales. My role in the design process came when they were facing the problem of the podium. They did not know where and how to put it. The structure was a long train with no space in between. I decided to cut it and raise the podium outside the Paddock"
+    }
+  },
+  "festivals": {
+    "title": "Music Festivals: Experience and Spatial Design",
+    "intro": {
+      "1": "Music is a form of expression of the human being that becomes part of the culture and identity of an entire society. The music festivals in Mexico nowadays are characterized by the creation of a whole thematic event that counts on the participation of national and international musicians at the same time.",
+      "2": "The tasks/briefs are often to design a custom structure that anyone in the festival could recognize, depending on the brand and that all the attendees would remember after the festival because of the experience.My role with the following projects was to developed the whole project and generate an impact delivery."
+    },
+    "section1": {
+      "title": "Back in time",
+      "1": "Corona Capital is the most important music festival in Mexico. The whole concept of the festival revolves around the city and how people live in it.Levi's commissioned me to design and plan a space for this festival, they gave me the concept of “Levi’s House” (Casa Levi’s) and told me to use different looks according to the campaign they were presenting at that moment. This edition is the 90’s look and feel, so I decided to create a space where you travel back in time, the look, the colours, textures and elements like smiley faces created a very fun space and evoked the era. For this project I had the opportunity to lead the whole design processes, from defining the whole concept, to design the structure, create the 3D modeling and rendering, and then to present it to the client The project was approved and built in the forthcoming editions of the festival."
+    },
+    "section2": {
+      "title": "Triangle progression",
+      "1": "Doritos was once again one of the main sponsors of the festival. To achieve a greater impact, they asked me to developed two spaces within the event, one rest area and the other one with a happening every certain time during the whole festival.",
+      "2": "“Exclusivity is a thing of the past” was the statement that the brand wanted to communicate, in other words, that everyone was welcome.The triangle is the shape that has to rule all Doritos spaces. By scaling and rotating these triangles you can give movement to a static space. The progressions of triangles have opened to the space, so everyone could see what was happening inside."
+    },
+    "section3": {
+      "title": "Cubes in motion",
+      "1": "The main challenge of this project was to design a two floor space, that could be assembled in five days, with a strong and unique sense of identity (or visual character), and where 150 people could fit.",
+      "2": "This was the first structure that I designed for this brand (Barcel) and it was based on a cube moving along a central axis. It stood out from the rest of the whole festival. After this project, I pushed the bar higher every year by creating unique structures."
+    },
+    "section4": {
+      "title": "Cube 2.0",
+      "1": "Since the design of 2015 worked so well the next year, I was asked to redesign it for the 2016 version.The evolution of the rectangular shapes in a space changed with the intersected cube all along the structure. Different stores for accommodating all the brand’s guests and VIP’s worked well, always with the best view."
+    },
+    "section5": {
+      "title": "Flowers in the sky",
+      "1": "The brand was happy with my work, so they kept asking for a different design every festival (EDC).",
+      "2": "I tried to incorporate more elements from the festival this time, so designed a couple of big flowers and butterflies so you could feel very small, like in a fairy tale."
+    },
+    "section6": {
+      "title": "Cubes and fabrics",
+      "1": "This time the brand asked for fabrics as the main element. I started to design the structure and with that, gave it movement to an orthogonal geometry all along. This version was built in the 2018 and 2019 edition of the festival due to the big success."
+    }
+  },
+  "fonart": {
+    "title": "FONART: Product Development",
+    "intro": {
+      "1": "Product development for the Design Promoter Center along with National Fund for the Promotion of Handicrafts (FONART) mostly with artisans working with a backstrap loom in rural communities.",
+      "2": "The overall purpose of the National Fund for the Development of Arts and Crafts (FONART) is to protect and promote traditional Mexican handicrafts. The agency has three main programs including artisan training, retail selling and the sponsoring of craft competitions. Handicrafts in Mexico are very devalued and one of the problems is that the products have been the same for a long time so the national market is no longer interested in buying another table runner or a bag with the same color scheme. That’s why we went to co-design some new products.The technique the artisans used was the backstrap loom, which requires a lot of time and needs special attention given to the details.We divided the project in three sections: Diagnosis/Introduction, New Ideas/Conceptualization and Final Results."
+    }
+  },
+  "gnp": {
+    "title": "Aqueducts Installation",
+    "intro": {
+      "1": "I designed this installation for a music festival that happens in a city (Querétaro, México) where one of the most famous landmarks is an aqueduct so I wanted to take that landmark and make it part of the festival.",
+      "2": "I crossed the aqueducts and left them as an outline so it would be very light and more visually interesting. At night the same outline was lit so the visibility was more interesting."
+    }
+  },
+  "lep": {
+    "title": "Participatory Sculpture Lab (LEP)",
+    "intro": {
+      "1": "The laboratory seeks to generate and strengthen community ties through art, and more specifically, through sculpture. In some contexts, sculpture can add value to a park, an alley or a public space. This idea was presented to a specific neighborhood first as a test that could then be replicated in other parts of the city.",
+      "2": "The place (Parque Jacarandas, Mexico City) was chosen because some facilitators/artists were familiar with it, knew the people and the scope we wanted to reach. The main theme was to create a mask. A mask as a reflection of each individual but with a representative feature that can add value to the community even in a hypothetical way."
+    },
+    "section1": {
+      "title": "Final Project: Scaled-down landscapes",
+      "1": "For the second stage I continued to experiment with wood carving but at some point I came across with a peculiar piece of wood that looked to me like a little mountain. After a while, I started to find mountains everywhere in my everyday life so I decided to go for it and make it happen. I carved the wood and painted with watercolour, burnt it and presented as if it was floating. The background was a rough landscape with watercolour",
+      "2": "The second one was more about the kind of wood than the shape of the object. I found a piece of old palm tree with some texture that looked that something was flowing through it, which reminded me of my childhood when I was travelling with my family through the countryside. The contrast between the first two pieces felt incomplete so a third one was made.",
+      "3": "This one was more about a memory. I chose to follow something from my past that appeared at some point over and over again, that was the perfect closure for these series.A flat top mountain all green which means it was summer. The watercolour from the background evokes a great sky."
+    },
+    "section2": {
+      "title": "Final project: Two sided mask",
+      "1": "I started to experiment with wood and clay for the first couple of weeks, so I came with the idea of these very geometric masks divided in two, one side wood and the other clay, always aware of the weight of each material, in its presentation. After that I used watercolour the wood side with, left the clay raw. The contrast of a more complex object to the other side generated a balance between weight and visual treatment."
+    }
+  },
+  "liso": {
+    "title": "Liso y Complexo (Smooth and Complex)",
+    "intro": {
+      "1": "This series explores how muscle fibers and tendons are intertwined as an analogy between objects and the human body.",
+      "2": "These pieces were presented in the University Museum of Contemporary Art (MUAC) in a group exposition about silverware and high technology processes. Each set of products had to be generated by two methods; 3D printing and laser cutting. I decided to make a series of three objects: Earrings, a tie clip and a hair clip, though in the end I kept just the earrings. ",
+      "3": "The concept for my pieces were the different kind of muscles in the human body, specifically the smooth and complex muscle tissues, and the relationship between them and the objects that we interact with in our daily lives. How can an object represent the part of the body that it interacts with? I decided to take this idea to another level and make the object-extension more literal by giving it the aesthetic of these two kinds of muscle tissues.",
+      "4": "As my thesis evolved, I decided to keep on studying the aesthetics of muscles and using a backwards process that began with a 3D object advancing to a 2D exercise. I chose to create a series of paintings emphasizing the way the forms and colours blend at some point. Also, all of them were painted in plywood in which I found a relation between human muscles and the different structure of the wood veneer. ",
+      "5": "The last piece was a mobile. I wanted to finish the series with something related to movement. It all started with muscles, so movement was a natural path when looking for a way to represent these objects. In the end, I felt that the mobile was failed because an outside source of energy was always needed for movement. I began to question what are muscles without movement. I will continue to explore ideas around movement and the human body outside of the body."
+    }
+  },
+  "mrm": {
+    "title": "Mexican Ready Made: NOT for Freedom",
+    "intro": {
+      "1": "“Not for freedom” is an object that was developed in the Mexican Ready Made Workshop led by architect and designer Volker Albus.",
+      "2": "This piece was exhibited in the University Museum of Arts and Sciences (MUCA) in 2013. If you alter the structure of the cage, it will probably fall apart, but in this case the books work as part of the structure, this object was an exercise from just one day of the workshop. In the end the final product is more about an idea than the product itself. You can easily reproduce it and give a different meaning each time but, in my opinion, that is the beauty of the readymade. A short moment made from a big idea that may not be seen as the result of a design process."
+    }
+  },
+  "posters": {
+    "title": "Gig Posters",
+    "intro": {
+      "1": "Exhibit in the Museum of the Object (MODO).",
+      "2": "Originally, the gig poster was a tool for the bands to attract people to their concerts or gigs when they were on tour before the digital era. Originally made in screen printing, the first rock posters used a relatively simple and inexpensive technique and were created in small or home workshops.",
+      "3": "This technique started to evolve and artists of the moment devoted themselves to developing a new plastic language through collaboration with bands and musicians. This is how iconic works for the history of design emerge, such as the logos and covers that Andy Warhol created for The Velvet Underground or Peter Saville for Joy Division.",
+      "4": "I decided to create my first gig poster for my favorite band (Thrice) after a friend of mine had called me and asked me if I wanted to present a proposal for the band in their show in Mexico City, to which, of course, I said yes. Soon afterward, a public market in Mexico City, Mercadorama was planning to do a gig poster exhibition and the organizers asked me if I wanted to exhibit my poster in the Museum of the Object (MODO)."
+    }
+  }
 }
