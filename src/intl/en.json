@@ -1,0 +1,48 @@
+{
+	"aalto": {
+		"title" : "Aalto LAB Mexico",
+		"intro" : {
+			"1": "“Aalto LAB Mexico (ALM) is an interdisciplinary and intercultural design-led project for social and environmental sustainability. It has been developed as a project-based learning experience, where feasible projects emerged directly and in coherence with a community called ‘20 de Noviembre’ (El 20), located in Campeche, Mexico.” - Claudia Garduño",
+			"2": "I was part of the ALM team since the project’s conception. ALM is the biggest and most complex project that I have ever been part of. Owing to the project’s highly interdisciplinary and intercultural basis, the team and the network started to grow quickly since its first year. I would never have imagined that an architect from New Zealand, an engineer from Finland and an industrial designer from Mexico would work together. This is how things are all the time.",
+			"3": "But what is ALM exactly? I think of it as an effort of making “El 20” a better place. In line with our aims, the project’s process and the structure of the LAB evolved and improved each year."
+		},
+		"subtitle" : "My personal timeline in the project",
+		"section1" : {
+			"title" : "Knowing the context",
+			"1" : "The year was divided into three stages: research, field work and reflection.",
+			"2" : "During the research period, we tried to obtain as much information as we could. 20 de Noviembre is not even on Google Maps, so the data was very limited. This limitation was considered in the field trip approach.",
+			"3" : "We formulated field questions that would enable us to know more about the community. Fieldwork was the most important part of the year and allowed us to ask the questions that would lead to the answers we needed to know.",
+			"4" : "I was proud of the part I played in organizing the fieldwork process and deeply saddened when I could not attend, having contracted a virus just days before the trip.However, I was able to continue my participation following the fieldwork stage, during reflection. This required a report to be published, the editorial design of which Gabriel Calvillo and I completed.You can find the full report here"
+		},
+		"section2" : {
+			"title" : "3 main projects",
+			"1" : "We defined three main projects:",
+			"2" : "Water / Cuxta-Há",
+			"3" : "Artesanía para el bienestar (Handicrafts for Wellbeing)",
+			"4" : "Eco-Hostel / La Casita",
+			"5" : "New team members joined and the challenge was to effectively pass on the information so they could understand the projects.",
+			"6" : "We went to Helsinki to be part of the “Challenging the Mindset Summer Workshop”, and an open summer workshop involving Aalto University master’s level students in conjunction with Aalto Lab Mexico.",
+			"7" : "During the field trip we identified specific require-ments and made some conceptual proposals. Gabriel Calvillo, Flynn Lewer (architect) and I sketched some ideas for the Eco-Hostel and pre-sented them to the community."
+		},
+		"section3" : {
+			"title" : "Hands on!",
+			"1" : "This was the year we managed to crowdfund the Eco-Hostel.",
+			"2" : "The process of the LAB was different, though the same “Labbers” were in charge of the design and the logistics of the project within the community.",
+			"3" : "This was the first tangible result for El 20. The team started with designers and engineers but no architects which forced us to reach out to many experts. This enabled us to collectively make decisions ourselves.",
+			"4" : "We spent three weeks co-creating the final design with the community. At the end, I was the only Labber left alongside Clau, while our friends Jan Ahlstedt and Antti Seppänen documented the process"
+		},
+		"section4" : {
+			"title" : "Cuxta-Há",
+			"1" : "I had graduated by the time this project began, so could not participate as a Labber. Instead, I became a tutor to assist and advise the younger members.",
+			"2" : "I was published as a co-author for a Delft Univer-sity of Technology selection of papers named “Design for Sustainable Wellbeing and Empower-ment” by Monto Mani and Prabhu Kandachar with the design of a poster “Lessons Learnt When doing Things Backwards: The Case Study of Aalto LAB Mexico.”",
+			"3" : "The team won the second place in the CE-MEX-TEC Award with the Cuxta-Hà: Living Water"
+		},
+		"section5" : {
+			"title" : "Health Security Plan and Artesanía para el bienestar",
+			"1" : "My role was to assist the three teams with the following projects:",
+			"2" : "Community health insurance. The main idea is to break the cycle of poverty due to health emergencies in the community.Medical emergencies place severe financial pressure on households in El 20; families may be forced to sell their goods, including land.",
+			"3" : "Honey and crafts. Create two circles of collaboration, one between artisans from different disciplines and the second with other community actors such as tourist guides.",
+			"4" : "La casita complex. Strengthen the local economy by implementing an attractive space to host visitors in El 20. The second stage is to develop showers and restrooms"
+		}
+	}
+}

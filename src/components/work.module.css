@@ -1,0 +1,47 @@
+.text{
+	flex: 1 1 0;
+}
+
+.container{
+	max-width: 1000px;
+	min-width: 0px;
+	margin: 0 auto;
+	display: flex;
+	margin-bottom: 2rem;
+	background-color: #f2f2f2;
+	padding: 0px;
+	border: 0;
+	transition-property: background;
+	transition-duration: 200ms;
+}
+
+.container:hover .textContainer{
+	color: white;
+}
+
+.container:hover{
+	cursor: pointer;
+	background-color: #191919;
+}
+
+.container:hover .image{
+	opacity: 1;
+}	
+
+.image{
+	flex: 2 1 0;
+	opacity: 0.8;
+	transition-property: opacity;
+	transition-duration: 200ms;
+}
+
+.textContainer{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	transition-property: color;
+	transition-duration: 500ms;
+}

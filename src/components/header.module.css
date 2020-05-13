@@ -1,0 +1,36 @@
+.header{
+	margin: 1.45rem 0 0;
+}
+
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+
+.link{
+	color: #b3b3b3;
+	text-decoration: none;
+	margin-top: 10px;
+	transition-property: color;
+	transition-duration: 200ms;
+}
+
+.title{
+	color: #4a4a4a;
+	text-decoration: none;
+	margin-top: 10px;
+	transition-property: color;
+	transition-duration: 200ms;
+}
+
+.link:hover{
+	color: #4a4a4a;
+}
+
+.links{
+	display: inline-block;
+	padding-left: 30px;
+}
