@@ -33,9 +33,9 @@ const Layout = ({ children }) => {
           padding: `0 1.0875rem 1.45rem`,
         }}
       >
-        <div class="gray"></div>
+        <div className="gray"></div>
         <main>{children}</main>
-        <div class="gray"></div>
+        <div className="gray"></div>
         <footer>
           © {new Date().getFullYear()}, Built by <a href="https://dazu.ma">Dario Zubillaga</a>
         </footer>

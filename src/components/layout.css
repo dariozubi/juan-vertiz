@@ -621,6 +621,8 @@ pre tt:after {
   }
 }
 
+/* Added by me */
+
 .gray{
   background-color: #eee;
   border-radius: 2px;
@@ -630,7 +632,7 @@ pre tt:after {
 }
 
 footer{
-  font-size: smaller;
+  font-size: xx-small;
   text-align: center;
   color: gray;
 }
@@ -638,3 +640,38 @@ footer{
 footer a{
   text-decoration: none;
 }
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1.45rem;
+}
+
+.column {
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.alone{
+  margin: 1.45rem auto;
+  max-width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+
+  .alone{
+    max-width: 100%;
+  }
+}
+

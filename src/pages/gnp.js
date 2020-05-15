@@ -12,22 +12,22 @@ const GNPPage = () => {
     query {
       gnp1: file(relativePath: { eq: "gnp1.png" }) {
         childImageSharp {
-          fixed(width:400, height:600) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:400) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       gnp2: file(relativePath: { eq: "gnp2.png" }) {
         childImageSharp {
-          fixed(width:400, height:299) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:400) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       gnp3: file(relativePath: { eq: "gnp3.png" }) {
         childImageSharp {
-          fixed(width:400, height:301) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:400) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
@@ -45,9 +45,15 @@ const GNPPage = () => {
       <p><FormattedMessage id="gnp.intro.1"/></p>
       <p><FormattedMessage id="gnp.intro.2"/></p>
 
-      <Img fixed={data.gnp1.childImageSharp.fixed}/>
-      <Img fixed={data.gnp2.childImageSharp.fixed}/>
-      <Img fixed={data.gnp3.childImageSharp.fixed}/>
+      <div className="row">
+        <div className="column">
+          <Img fluid={data.gnp1.childImageSharp.fluid}/>
+        </div>
+        <div className="column">
+          <Img fluid={data.gnp2.childImageSharp.fluid}/>
+          <Img fluid={data.gnp3.childImageSharp.fluid}/>
+          </div>
+      </div>
 
     </Layout>
   )

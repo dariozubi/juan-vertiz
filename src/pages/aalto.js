@@ -12,78 +12,78 @@ const AaltoPage = () => {
     query {
       aalto1: file(relativePath: { eq: "aalto1.png" }) {
         childImageSharp {
-          fixed(width:342, height:425) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:342) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       aalto2: file(relativePath: { eq: "aalto2.png" }) {
         childImageSharp {
-          fixed(width:319, height:425) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:319) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       aalto3: file(relativePath: { eq: "aalto3.png" }) {
         childImageSharp {
-          fixed(width:566, height:425) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:566) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       aalto4: file(relativePath: { eq: "aalto4.png" }) {
         childImageSharp {
-          fixed(width:500, height:375) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:500) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       aalto5: file(relativePath: { eq: "aalto5.png" }) {
         childImageSharp {
-          fixed(width:500, height:338) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:500) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       aalto6: file(relativePath: { eq: "aalto6.png" }) {
         childImageSharp {
-          fixed(width:500, height:457) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:500) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       aalto7: file(relativePath: { eq: "aalto7.png" }) {
         childImageSharp {
-          fixed(width:500, height:453) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:500) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       aalto8: file(relativePath: { eq: "aalto8.png" }) {
         childImageSharp {
-          fixed(width:486, height:322) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:486) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       aalto9: file(relativePath: { eq: "aalto9.png" }) {
         childImageSharp {
-          fixed(width:485, height:322) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:485) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       aalto10: file(relativePath: { eq: "aalto10.png" }) {
         childImageSharp {
-          fixed(width:482, height:322) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:482) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       aalto11: file(relativePath: { eq: "aalto11.png" }) {
         childImageSharp {
-          fixed(width:483, height:322) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:483) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
@@ -102,17 +102,23 @@ const AaltoPage = () => {
       <p><FormattedMessage id="aalto.intro.2"/></p>
       <p><FormattedMessage id="aalto.intro.3"/></p>
 
-      <Img fixed={data.aalto1.childImageSharp.fixed}/>
-      <Img fixed={data.aalto2.childImageSharp.fixed}/>
-      <Img fixed={data.aalto3.childImageSharp.fixed}/>
-      <Img fixed={data.aalto4.childImageSharp.fixed}/>
-      <Img fixed={data.aalto5.childImageSharp.fixed}/>
-      <Img fixed={data.aalto6.childImageSharp.fixed}/>
-      <Img fixed={data.aalto7.childImageSharp.fixed}/>
-      <Img fixed={data.aalto8.childImageSharp.fixed}/>
-      <Img fixed={data.aalto9.childImageSharp.fixed}/>
-      <Img fixed={data.aalto10.childImageSharp.fixed}/>
-      <Img fixed={data.aalto11.childImageSharp.fixed}/>
+      <div className="row">
+        <div className="column">
+          <Img fluid={data.aalto1.childImageSharp.fluid}/>
+          <Img fluid={data.aalto2.childImageSharp.fluid}/>
+          <Img fluid={data.aalto3.childImageSharp.fluid}/>
+          <Img fluid={data.aalto4.childImageSharp.fluid}/>
+          <Img fluid={data.aalto5.childImageSharp.fluid}/>
+        </div>
+        <div className="column">
+          <Img fluid={data.aalto6.childImageSharp.fluid}/>
+          <Img fluid={data.aalto7.childImageSharp.fluid}/>
+          <Img fluid={data.aalto8.childImageSharp.fluid}/>
+          <Img fluid={data.aalto9.childImageSharp.fluid}/>
+          <Img fluid={data.aalto10.childImageSharp.fluid}/>
+          <Img fluid={data.aalto11.childImageSharp.fluid}/>
+        </div>
+      </div>
 
       <h2><FormattedMessage id="aalto.subtitle"/></h2>
 

@@ -12,22 +12,22 @@ const FonartPage = () => {
     query {
       fonart1: file(relativePath: { eq: "fonart1.png" }) {
         childImageSharp {
-          fixed(width:500, height:281) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:500) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       fonart2: file(relativePath: { eq: "fonart2.png" }) {
         childImageSharp {
-          fixed(width:500, height:370) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:500) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       fonart3: file(relativePath: { eq: "fonart3.png" }) {
         childImageSharp {
-          fixed(width:500, height:363) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:500) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
@@ -45,10 +45,15 @@ const FonartPage = () => {
       <p><FormattedMessage id="fonart.intro.1"/></p>
       <p><FormattedMessage id="fonart.intro.2"/></p>
 
-      <Img fixed={data.fonart1.childImageSharp.fixed}/>
-      <Img fixed={data.fonart2.childImageSharp.fixed}/>
-      <Img fixed={data.fonart3.childImageSharp.fixed}/>
-
+      <div className="row">
+        <div className="column">
+          <Img fluid={data.fonart1.childImageSharp.fluid}/>
+          <Img fluid={data.fonart2.childImageSharp.fluid}/>
+        </div>
+        <div className="column">
+          <Img fluid={data.fonart3.childImageSharp.fluid}/>
+        </div>
+      </div>
     </Layout>
   )
 }

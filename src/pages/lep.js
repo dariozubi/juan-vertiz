@@ -12,85 +12,85 @@ const LEPPage = () => {
     query {
       lep1: file(relativePath: { eq: "lep1.png" }) {
         childImageSharp {
-          fixed(width:400, height:311) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:400) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       lep2: file(relativePath: { eq: "lep2.png" }) {
         childImageSharp {
-          fixed(width:400, height:331) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:400) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       lep3: file(relativePath: { eq: "lep3.png" }) {
         childImageSharp {
-          fixed(width:400, height:382) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:400) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       lep4: file(relativePath: { eq: "lep4.png" }) {
         childImageSharp {
-          fixed(width:400, height:367) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:400) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       lep5: file(relativePath: { eq: "lep5.png" }) {
         childImageSharp {
-          fixed(width:400, height:383) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:400) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       lep6: file(relativePath: { eq: "lep6.png" }) {
         childImageSharp {
-          fixed(width:400, height:376) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:400) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       lep7: file(relativePath: { eq: "lep7.png" }) {
         childImageSharp {
-          fixed(width:400, height:419) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:400) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       lep8: file(relativePath: { eq: "lep8.png" }) {
         childImageSharp {
-          fixed(width:400, height:373) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:400) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       lep9: file(relativePath: { eq: "lep9.png" }) {
         childImageSharp {
-          fixed(width:400, height:326) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:400) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       lep10: file(relativePath: { eq: "lep10.png" }) {
         childImageSharp {
-          fixed(width:400, height:266) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:400) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       lep11: file(relativePath: { eq: "lep11.png" }) {
         childImageSharp {
-          fixed(width:400, height:337) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:400) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       lep12: file(relativePath: { eq: "lep12.png" }) {
         childImageSharp {
-          fixed(width:400, height:340) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:400) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
@@ -111,29 +111,53 @@ const LEPPage = () => {
       <h3><FormattedMessage id="lep.section1.title"/></h3>
       <p><FormattedMessage id="lep.section1.1"/></p>
 
-      <Img fixed={data.lep10.childImageSharp.fixed}/>
-      <Img fixed={data.lep11.childImageSharp.fixed}/>
-      <Img fixed={data.lep12.childImageSharp.fixed}/>
-
+      <div className="row">
+        <div className="column">
+          <Img fluid={data.lep10.childImageSharp.fluid}/>
+          <Img fluid={data.lep11.childImageSharp.fluid}/>
+        </div>
+        <div className="column">
+          <Img fluid={data.lep12.childImageSharp.fluid}/>
+        </div>
+      </div>
+    
       <p><FormattedMessage id="lep.section1.2"/></p>
 
-      <Img fixed={data.lep7.childImageSharp.fixed}/>
-      <Img fixed={data.lep8.childImageSharp.fixed}/>
-      <Img fixed={data.lep9.childImageSharp.fixed}/>
-
+      <div className="row">
+        <div className="column">
+          <Img fluid={data.lep7.childImageSharp.fluid}/>
+          <Img fluid={data.lep8.childImageSharp.fluid}/>
+        </div>
+        <div className="column">
+          <Img fluid={data.lep9.childImageSharp.fluid}/>
+        </div>
+      </div>
+    
       <p><FormattedMessage id="lep.section1.3"/></p>
 
-      <Img fixed={data.lep4.childImageSharp.fixed}/>
-      <Img fixed={data.lep5.childImageSharp.fixed}/>
-      <Img fixed={data.lep6.childImageSharp.fixed}/>
-
+      <div className="row">
+        <div className="column">
+          <Img fluid={data.lep4.childImageSharp.fluid}/>
+          <Img fluid={data.lep5.childImageSharp.fluid}/>
+        </div>
+        <div className="column">
+          <Img fluid={data.lep6.childImageSharp.fluid}/>
+        </div>
+      </div>
+    
       <h3><FormattedMessage id="lep.section2.title"/></h3>
       <p><FormattedMessage id="lep.section2.1"/></p>
 
-      <Img fixed={data.lep1.childImageSharp.fixed}/>
-      <Img fixed={data.lep2.childImageSharp.fixed}/>
-      <Img fixed={data.lep3.childImageSharp.fixed}/>
-
+      <div className="row">
+        <div className="column">
+          <Img fluid={data.lep1.childImageSharp.fluid}/>
+          <Img fluid={data.lep2.childImageSharp.fluid}/>
+        </div>
+        <div className="column">
+          <Img fluid={data.lep3.childImageSharp.fluid}/>
+        </div>
+      </div>
+    
     </Layout>
   )
 }

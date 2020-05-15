@@ -7,7 +7,7 @@
     },
     "work": "work",
     "about": "about",
-    "title" : "Home"
+    "title": "Home"
   },
   "aalto": {
     "title": "Aalto LAB Mexico",
@@ -151,6 +151,14 @@
       "2": "Originally, the gig poster was a tool for the bands to attract people to their concerts or gigs when they were on tour before the digital era. Originally made in screen printing, the first rock posters used a relatively simple and inexpensive technique and were created in small or home workshops.",
       "3": "This technique started to evolve and artists of the moment devoted themselves to developing a new plastic language through collaboration with bands and musicians. This is how iconic works for the history of design emerge, such as the logos and covers that Andy Warhol created for The Velvet Underground or Peter Saville for Joy Division.",
       "4": "I decided to create my first gig poster for my favorite band (Thrice) after a friend of mine had called me and asked me if I wanted to present a proposal for the band in their show in Mexico City, to which, of course, I said yes. Soon afterward, a public market in Mexico City, Mercadorama was planning to do a gig poster exhibition and the organizers asked me if I wanted to exhibit my poster in the Museum of the Object (MODO)."
+    }
+  },
+  "about": {
+    "title": "Hello! My name is Juan Vertiz",
+    "intro": {
+      "1": "I'm on a constant quest to evolve, interested in creating unique spaces and experiences for exploration, collaboration and innovation in both large and small scale.",
+      "2": "I'm keen on understanding how spaces, material and people interact in order to seek how design can influence those interactions.",
+      "3": "From commercial projects to communities development my role is to move everyone within my reach."
     }
   }
 }

@@ -9,6 +9,7 @@ const Work = ({ text, year, image, link, side="right" }) => {
       <div 
         className={workStyles.container}
         role="button"
+        tabIndex={0}
         onClick={ e => {
           e.preventDefault(); 
           navigate(link);
@@ -35,6 +36,7 @@ const Work = ({ text, year, image, link, side="right" }) => {
         <div 
           className={workStyles.container} 
           role="button"
+          tabIndex={0}
           onClick={ e => {
             e.preventDefault(); 
             navigate(link);

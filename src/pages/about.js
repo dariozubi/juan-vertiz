@@ -6,13 +6,13 @@ import Img from "gatsby-image"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const PostersPage = () => {
+const MRMPage = () => {
   const intl = useIntl();
   const data = useStaticQuery(graphql`
     query {
-      carteles1: file(relativePath: { eq: "carteles1.png" }) {
+      mexicanreadymade2: file(relativePath: { eq: "aalto9.png" }) {
         childImageSharp {
-          fluid(maxWidth:800) {
+          fluid(maxWidth:485) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -24,21 +24,21 @@ const PostersPage = () => {
     <Layout>
       <SEO 
         lang={intl.locale}
-        title={intl.formatMessage({ id: "posters.title" })} 
+        title={intl.formatMessage({ id: "about.title" })} 
       />
 
-      <h1><FormattedMessage id="posters.title"/></h1>
-      <p><FormattedMessage id="posters.intro.1"/></p>
-      <p><FormattedMessage id="posters.intro.2"/></p>
-      <p><FormattedMessage id="posters.intro.3"/></p>
-      <p><FormattedMessage id="posters.intro.4"/></p>
+      <h1><FormattedMessage id="about.title"/></h1>
 
       <div className="alone">
-        <Img fluid={data.carteles1.childImageSharp.fluid}/>
+        <Img fluid={data.mexicanreadymade2.childImageSharp.fluid}/>
       </div>
+
+      <p><FormattedMessage id="about.intro.1"/></p>
+      <p><FormattedMessage id="about.intro.2"/></p>
+      <p><FormattedMessage id="about.intro.3"/></p>
 
     </Layout>
   )
 }
 
-export default PostersPage;
+export default MRMPage;

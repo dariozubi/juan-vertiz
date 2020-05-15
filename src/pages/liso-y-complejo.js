@@ -12,71 +12,71 @@ const F1Page = () => {
     query {
       liso1: file(relativePath: { eq: "liso1.png" }) {
         childImageSharp {
-          fixed(width:400, height:829) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:400) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       liso2: file(relativePath: { eq: "liso2.png" }) {
         childImageSharp {
-          fixed(width:500, height:333) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:500) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       liso3: file(relativePath: { eq: "liso3.png" }) {
         childImageSharp {
-          fixed(width:500, height:334) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:500) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       liso4: file(relativePath: { eq: "liso4.png" }) {
         childImageSharp {
-          fixed(width:400, height:537) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:400) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       liso5: file(relativePath: { eq: "liso5.png" }) {
         childImageSharp {
-          fixed(width:400, height:363) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:400) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       liso6: file(relativePath: { eq: "liso6.png" }) {
         childImageSharp {
-          fixed(width:400, height:363) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:400) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       liso7: file(relativePath: { eq: "liso7.png" }) {
         childImageSharp {
-          fixed(width:600, height:317) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:600) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       liso8: file(relativePath: { eq: "liso8.png" }) {
         childImageSharp {
-          fixed(width:600, height:317) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:600) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       liso9: file(relativePath: { eq: "liso9.png" }) {
         childImageSharp {
-          fixed(width:500, height:334) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:500) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       liso10: file(relativePath: { eq: "liso10.png" }) {
         childImageSharp {
-          fixed(width:500, height:334) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:500) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
@@ -95,22 +95,40 @@ const F1Page = () => {
       <p><FormattedMessage id="liso.intro.2"/></p>
       <p><FormattedMessage id="liso.intro.3"/></p>
 
-      <Img fixed={data.liso7.childImageSharp.fixed}/>
-      <Img fixed={data.liso8.childImageSharp.fixed}/>
-      <Img fixed={data.liso9.childImageSharp.fixed}/>
-      <Img fixed={data.liso10.childImageSharp.fixed}/>
+      <div className="row">
+        <div className="column">
+          <Img fluid={data.liso7.childImageSharp.fluid}/>
+          <Img fluid={data.liso9.childImageSharp.fluid}/>
+        </div>
+        <div className="column">
+          <Img fluid={data.liso8.childImageSharp.fluid}/>
+          <Img fluid={data.liso10.childImageSharp.fluid}/>
+        </div>
+      </div>
 
       <p><FormattedMessage id="liso.intro.4"/></p>
 
-      <Img fixed={data.liso5.childImageSharp.fixed}/>
-      <Img fixed={data.liso6.childImageSharp.fixed}/>
+      <div className="row">
+        <div className="column">
+          <Img fluid={data.liso5.childImageSharp.fluid}/>
+        </div>
+        <div className="column">
+          <Img fluid={data.liso6.childImageSharp.fluid}/>
+        </div>
+      </div>
 
       <p><FormattedMessage id="liso.intro.5"/></p>
 
-      <Img fixed={data.liso1.childImageSharp.fixed}/>
-      <Img fixed={data.liso2.childImageSharp.fixed}/>
-      <Img fixed={data.liso3.childImageSharp.fixed}/>
-      <Img fixed={data.liso4.childImageSharp.fixed}/>
+      <div className="row">
+        <div className="column">
+          <Img fluid={data.liso1.childImageSharp.fluid}/>
+          <Img fluid={data.liso2.childImageSharp.fluid}/>
+        </div>
+        <div className="column">
+          <Img fluid={data.liso3.childImageSharp.fluid}/>
+          <Img fluid={data.liso4.childImageSharp.fluid}/>
+        </div>
+      </div>
       
     </Layout>
   )

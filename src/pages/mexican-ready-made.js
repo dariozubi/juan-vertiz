@@ -12,8 +12,15 @@ const MRMPage = () => {
     query {
       mexicanreadymade2: file(relativePath: { eq: "mexicanreadymade2.png" }) {
         childImageSharp {
-          fixed(width:400, height:432) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:400, fit: CONTAIN) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      mexicanreadymade: file(relativePath: { eq: "mexicanreadymade.png" }) {
+        childImageSharp {
+          fluid(maxWidth:400, fit: CONTAIN) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
@@ -31,8 +38,14 @@ const MRMPage = () => {
       <p><FormattedMessage id="mrm.intro.1"/></p>
       <p><FormattedMessage id="mrm.intro.2"/></p>
 
-      <Img fixed={data.mexicanreadymade2.childImageSharp.fixed}/>
-
+      <div className="row">
+        <div className="column">
+          <Img fluid={data.mexicanreadymade.childImageSharp.fluid}/>
+        </div>
+        <div className="column">
+          <Img fluid={data.mexicanreadymade2.childImageSharp.fluid}/>
+        </div>
+      </div>
 
     </Layout>
   )

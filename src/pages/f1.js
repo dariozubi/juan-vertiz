@@ -12,22 +12,22 @@ const F1Page = () => {
     query {
       f1_1: file(relativePath: { eq: "f1_1.png" }) {
         childImageSharp {
-          fixed(width:595, height:336) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:595) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       f1_2: file(relativePath: { eq: "f1_2.png" }) {
         childImageSharp {
-          fixed(width:596, height:336) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:596) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
       f1_3: file(relativePath: { eq: "f1_3.png" }) {
         childImageSharp {
-          fixed(width:500, height:281) {
-            ...GatsbyImageSharpFixed
+          fluid(maxWidth:500) {
+            ...GatsbyImageSharpFluid
           }
         }
       }
@@ -44,9 +44,15 @@ const F1Page = () => {
       <h1><FormattedMessage id="f1.title"/></h1>
       <p><FormattedMessage id="f1.intro.1"/></p>
 
-      <Img fixed={data.f1_1.childImageSharp.fixed}/>
-      <Img fixed={data.f1_2.childImageSharp.fixed}/>
-      <Img fixed={data.f1_3.childImageSharp.fixed}/>
+      <div className="row">
+        <div className="column">
+          <Img fluid={data.f1_1.childImageSharp.fluid}/>
+          <Img fluid={data.f1_2.childImageSharp.fluid}/>
+      </div>
+        <div className="column">
+          <Img fluid={data.f1_3.childImageSharp.fluid}/>
+        </div>
+      </div>
 
     </Layout>
   )
